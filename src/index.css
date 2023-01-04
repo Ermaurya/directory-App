@@ -1,0 +1,154 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.main-header {
+  width: 100vw;
+  height: 50px;
+  background-color: rgb(65, 12, 212);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-new-person-info{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+  margin-left: 66px;
+  margin-bottom: 20px;
+}
+.btn-page {
+  background-color: rgb(32, 92, 160);
+  border: none;
+  padding: 5px;
+  margin-right: 20px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.d-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.main-contant {
+  width: 90vw;
+  height: 71vh;
+  margin: auto;
+  border: 1px solid black;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.all-info{
+  margin-top: 11px;
+}
+.add-person {
+  border: 1px solid;
+    height: 36px;
+    width: 183px;
+    position: relative;
+    left: -36.2rem;
+    padding-left: 18px;
+  text-align: start;
+}
+table {
+  border-collapse: collapse;
+}
+.info{
+  background-color: rgb(114, 172, 239);
+  color: white;
+  border: 1px solid black;
+  width: 15vw;
+  padding: 5px;
+}
+.d-info{
+  border: none;
+  border: 1px solid black;
+  width: 15vw;
+  padding: 5px;
+}
+.find-detail h3{
+  border: none!important;
+}
+input {
+  width: 10vw;
+}
+td {
+  border: 1px solid black;
+  padding: 5px;
+}
+.click-btn-box {
+  border: none;
+  background-color: white;
+  text-decoration: underline;
+  color: rgb(44, 112, 190);
+  cursor: pointer;
+  margin-right: 20px;
+}
+.retrieve {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 90vw;
+  height: 80vh;
+  border: 1px solid black;
+}
+.search {
+  width: 200px;
+  height: 30px;
+}
+.btn-find {
+  background-color: rgb(44, 112, 190);
+  color: white;
+  border: none;
+  width: 50px;
+  height: 30px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.inputs::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.add-users{
+  width: 10vw;
+  background-color: rgb(44, 112, 190);
+  border: none;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+  margin-top: 90px;
+    margin-left: 78vw;
+}
+
+.search::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.single-data {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.no-data-found {
+  margin-top: 20vh;
+}
+.retrieve h3{
+  border: 1px solid black;
+}
+.find-detail {
+  border: 1px solid black;
+  margin-top: 20px;
+  text-align: start;
+}
+span{
+  font-weight: 400;
+}
+@media screen and (max-width: 900px) {
+  input {
+    width: 15vw;
+  }
+}
